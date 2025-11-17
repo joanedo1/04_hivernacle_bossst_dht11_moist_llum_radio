@@ -1,0 +1,33 @@
+{
+    "name": "04_Hivernacle_Bossòst_DHT11_Moist_Llum_Radio",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "microshield": "github:makeandlearn/pxt-microshield#v1.0.2",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
+        "radio": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.6.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.28",
+        "tag": "v6.0.28",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9d308fa3c282191768670a6558e4df8af2d715cf",
+        "target": "8.0.18",
+        "pxt": "9.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
