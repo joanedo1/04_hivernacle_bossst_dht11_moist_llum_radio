@@ -65,3 +65,7 @@ true,
 false,
 true
 )
+Sensors()
+loops.everyInterval(60000, function () {
+    Sensors()
+})
